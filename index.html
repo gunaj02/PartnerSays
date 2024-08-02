@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Messages</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    .message-box {
+      text-align: center;
+    }
+    .message {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+    .button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="message-box">
+    <div class="message" id="message">Feeling bored? Tap below to see what Parnter says about you!</div>
+    <button class="button" onclick="showMessage1()">Tap here</button>
+  </div>
+
+  <script>
+    function showMessage1() {
+      document.getElementById('message').innerText = 'Partner says "You are pretty"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage2()');
+    }
+
+    function showMessage2() {
+      document.getElementById('message').innerText = 'Partner says "You are lovely"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage3()');
+    }
+
+    function showMessage3() {
+      document.getElementById('message').innerText = 'Partner says "You are gorgeous"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage4()');
+    }
+
+    function showMessage4() {
+      document.getElementById('message').innerText = 'Partner says "You are charming"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage5()');
+    }
+
+    function showMessage5() {
+      document.getElementById('message').innerText = 'Partner says "You are Adorable"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage6()');
+    }
+
+    function showMessage6() {
+      document.getElementById('message').innerText = 'Partner says "You are Sweet(Haan Yummy toh hai)"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage7()');
+    }
+
+    function showMessage7() {
+      document.getElementById('message').innerText = 'Partner says "You are Strong"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage8()');
+    }
+
+    function showMessage8() {
+      document.getElementById('message').innerText = 'Partner says "You are Powerful"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage9()');
+    }
+
+    function showMessage9() {
+      document.getElementById('message').innerText = 'Partner says "You are Inspiring"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage10()');
+    }
+
+    function showMessage10() {
+      document.getElementById('message').innerText = 'Partner says "Partner is Proud of You"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage11()');
+    }
+
+    function showMessage11() {
+      document.getElementById('message').innerText = 'Partner says "You are ROSHNI to his Andheri Life"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage12()');
+    }
+
+    function showMessage12() {
+      document.getElementById('message').innerText = 'Partner says "Partner Loves you the Most, More than anyone in this world!"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage13()');
+    }
+
+    function showMessage13() {
+      document.getElementById('message').innerText = 'And finally Partner says "He is not vella, bas ye krne mei maza aaya"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage14()');
+    }
+
+    function showMessage14() {
+      document.getElementById('message').innerText = 'And Last finally Partner says "You make me Happy"';
+      document.querySelector('.button').setAttribute('onclick', 'showMessage15()');
+    }
+
+    function showMessage15() {
+      document.getElementById('message').innerText = 'And Pakka Last finally Partner says "Scale of 10 is way too small to tell your importance in my life"';
+      document.querySelector('.button').style.display = 'none';
+    }
+
+  </script>
+</body>
+</html>
